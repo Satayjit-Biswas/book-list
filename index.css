@@ -1,0 +1,68 @@
+.list_area {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_box {
+    background-color: rgba(249, 252, 255, 0.815);
+    min-height: 80vh;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_box_warp{
+    width: 50%;
+}
+.list_box_warp i {
+    color: rgb(245, 180, 2);
+}
+input{
+    width: 100%;
+    margin-bottom: 20px !important;
+    padding: 5px 10px;
+}
+button{
+    background-color: rgb(245, 180, 2);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 8px 0;
+    transition: .3s;
+    border: 2px solid rgb(245, 180, 2);
+    font-weight: 600;
+
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(245, 180, 2);
+}
+.addlist,table{
+    width: 100%;
+}
+.addlist tr{
+    border: 1px solid rgb(230, 227, 227);
+    padding: 100px;
+    text-align: center;
+}
+th{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 0;
+}
+td{
+    font-size: 12px;
+    padding: 5px 0;
+}
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+.error {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
